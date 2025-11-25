@@ -5,7 +5,7 @@ import os
 
 # Mapeo de teclas y opciones
 opciones_j1 = {"a": "piedra", "s": "papel", "d": "tijera"}
-opciones_j2 = {"4": "piedra", "5": "papel", "6": "tijera"}
+opciones_j2 = {"1": "piedra", "2": "papel", "3": "tijera"}
 
 # Archivo CSV
 archivo_csv = "jugadas.csv"
