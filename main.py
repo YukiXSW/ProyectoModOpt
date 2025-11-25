@@ -20,10 +20,12 @@ def inicializar_csv():
 
 
 def cuenta_regresiva():
-    """Hace una cuenta atrás de 3 segundos."""
+    """Cuenta regresiva personalizada para piedra, papel o tijera."""
+    pasos = ["piedra", "papel", "tijera", "1", "2", "3"]
+
     print("Preparados...")
-    for n in range(3, 0, -1):
-        print(n)
+    for paso in pasos:
+        print(paso)
         time.sleep(1)
     print("¡YA!\n")
 
